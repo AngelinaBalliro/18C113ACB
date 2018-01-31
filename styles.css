@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+
+}
+p.important{
+    font-family: Arial;
+
+}
+body {
+    background-color:#adffeb;
+    font-family: 'SHOWCARD GOTHIC';
+    color: #7a4293;
+    text-align:center;
+    font-size:22px;
+    
+}
+.center {
+    margin: auto;
+    width:75%;
+    border: 10px solid #7a4293;
+    padding: 20px;
+}
