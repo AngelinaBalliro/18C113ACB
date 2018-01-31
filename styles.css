@@ -1,9 +1,20 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 h1{
+    padding-top:40px;
     text-align: center;
 
 }
 p.important{
+    padding-top: 25px;
+    padding-bottom: 40px;
     font-family: Arial;
+    font-weight: bold;
 
 }
 body {
@@ -11,12 +22,30 @@ body {
     font-family: 'SHOWCARD GOTHIC';
     color: #7a4293;
     text-align:center;
-    font-size:22px;
-    
+    font-size:22px;  
+
 }
-.center {
+.hobbyOne {
     margin: auto;
     width:75%;
     border: 10px solid #7a4293;
-    padding: 20px;
+    padding: 20px;  
+    background-color: #c89ddb;
+}
+.hobbyTwo {
+    margin: auto;
+    width:75%;
+    border: 10px solid #7a4293;
+    padding: 20px;  
+    background-color: #bc82d6;
+}
+.hobbyThree {
+    margin: auto;
+    width:75%;
+    border: 10px solid #7a4293;
+    padding: 20px;   
+    background-color: #b16fce;
+}
+a.links{
+    text-decoration: none;
 }
