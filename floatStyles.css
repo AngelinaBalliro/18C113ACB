@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  overflow: hidden;
+  background-color: #9FD2A6;
+}
+.page {
+  width: 900px;
+  margin: 0  auto;
+  overflow: hidden
+}
+.header {
+  height: 100px;
+  background-color: #9FD2A6;    
+  font-family: 'SHOWCARD GOTHIC';
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
+#contact{
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.left {
+  float: left; 
+  width: 250px;
+  height: 500px;
+  background-color: #8BCA7F;   
+  text-align: center;
+  font-size: 20px; 
+  font-family: Arial;
+  color: white;
+}
+#Hobbies{
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.middle {
+  float: left;
+  width: 450px;
+  height: 500px;
+  background-color: #F5CF8E;    
+  
+}
+
+.right {
+  float:left;
+  width: 200px;
+  height: 500px;
+  background-color: #8BCA7F;
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+}
+#links{
+font-size: 30px;
+font-family: Arial;
+text-align: center;
+text-decoration: underline;
+}
+a:link{
+color: white;
+}
+a:visited{
+color:grey;
+}
+.footer {
+  clear: both;
+  height: 50px;
+  background-color: #87a887;  
+  text-align: center;
+}
