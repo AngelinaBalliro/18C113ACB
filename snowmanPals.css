@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    overflow: hidden;
+  }
+.page {
+    width: 100%;
+    margin: 0  auto;
+    overflow: hidden;
+
+    
+  }
+.sky{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 750px;
+    padding-top: 300px;
+}
+
+.sun{
+background-color: yellow;
+width: 200px;
+height: 200px;
+float: right;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border-radius: 100px;
+}
+.snowPals{
+    margin: auto;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.snowLady{
+    float: right;
+    overflow: hidden;
+    width:175;
+    height:400;
+    
+}
+.bow{
+color: #fdffc9;
+text-align:center;
+font-size: 45px;
+}
+
+.headLady{
+background-color:#ffddfc;
+margin: auto;
+width: 100px;
+height: 100px;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
+}
+.bodyLady{
+background-color:#ffddfc;
+margin: auto;
+width: 130px;
+height: 130px;
+-moz-border-radius: 65px;
+-webkit-border-radius: 65px;
+border-radius: 65px;
+}
+.bottomLady{
+background-color:#ffddfc;
+margin: auto;
+width: 175px;
+height: 175px;
+-moz-border-radius: 87px;
+-webkit-border-radius: 87px;
+border-radius: 87px;
+
+}
+
+
+
+
+
+
+
+
+.snowGuy{
+    float: left;
+}
+
+.hat{
+    background-color: black;
+    height: 40px;
+    width: 40px;  
+    margin:auto;
+}
+.rim{
+    background-color: black;
+    width: 60px;
+    height: 10px;
+    margin: auto;
+}
+
+.head{
+    
+    background-color: white;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+
+}
+.eyes{
+    text-align: center;
+    font-size: 20px;
+}
+.nose{
+    color: orangered;
+    text-align: center;
+    font-size: 20px;
+}
+.body{
+    background-color: white;
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 65px;
+	-webkit-border-radius: 65px;
+    border-radius: 65px;
+
+}
+.button{
+
+    text-align: center;
+}
+.bottom{
+    background-color: white;
+    margin: auto;
+    width: 175px;
+    height: 175px;
+    -moz-border-radius: 87px;
+	-webkit-border-radius: 87px;
+    border-radius: 87px;
+
+}
+
+.ground{
+    clear: both;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 200px;
+
+}
