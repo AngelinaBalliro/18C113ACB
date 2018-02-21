@@ -10,8 +10,6 @@
     width: 100%;
     margin: 0  auto;
     overflow: hidden;
-
-    
   }
 .sky{
     background-color: lightskyblue;
@@ -79,13 +77,6 @@ height: 175px;
 border-radius: 87px;
 
 }
-
-
-
-
-
-
-
 
 .snowGuy{
     float: left;
