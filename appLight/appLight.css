@@ -8,10 +8,9 @@ body{
   background-color:pink;
   margin:0 auto;
 	position:relative;
-	top:50%;
-	transform:translateY(50%);
 	height:200px;
 	width:350px;
+  transform:translateY(50%);
 }
 
 #switcher{
