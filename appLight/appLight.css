@@ -17,12 +17,13 @@ body{
 #switcher{
 	height:200px;
 	width:175px;
-	background-color:#fbffd8;
+	background-color:#7dd6e0;
 	float:left;
 }
 
 #position{
   text-align: center;
-  font-size: 100px;
+  font-size: 85px;
   font-family: fantasy;
+  float: right;
 }
