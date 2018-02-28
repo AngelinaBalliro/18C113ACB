@@ -24,7 +24,7 @@ while (guess != setNum){
   }
   if (guess===setNum){
     guessCount++;
-    alert("Congrats you guessed the number! It took you " + guessCount + " times");
+    alert("Congrats you guessed the number! It took you " + guessCount + " times.");
   }
 }
 }
