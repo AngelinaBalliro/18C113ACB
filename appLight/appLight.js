@@ -1,10 +1,6 @@
 function flipswitch() {
 	var light = document.getElementById("switcher");
-	if(light.style.cssFloat == "") {
-		light.style.cssFloat = "left";
-		document.body.style.backgroundColor = "black";
-		document.getElementById("position").innerHTML = "OFF";
-	}
+
 	if(light.style.cssFloat == "right"){
 		light.style.cssFloat="left";
 		document.body.style.backgroundColor = "black";
