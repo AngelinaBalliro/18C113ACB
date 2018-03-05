@@ -3,7 +3,6 @@ body{
   height:100%;
   margin:0;
 }
-
 #lightSwitch{
   background-color:pink;
   top:50%;
@@ -14,14 +13,12 @@ body{
 	height:200px;
 	width:350px;
 }
-
 #switcher{
 	height:200px;
 	width:175px;
 	background-color:#7dd6e0;
 	float:left;
 }
-
 #position{
   text-align: center;
   font-size: 85px;
