@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+  background-image: url("star.jpg");
+}
+#title{
+  padding-bottom: 15px;
+  font-size: 40px;
+  color:white;
+  margin:auto;
+  text-align: center;
+  font-family: arial;
+  font-weight: bolder;
+}
+#des{
+  color:white;
+  margin:auto;
+  text-align: center;
+  font-family: Arial;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+#container{
+  font-family: arial;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin:auto;
+  background-color:lightblue;
+  width: 600px;
+  list-style: square;
+  opacity: 0.7;
+  font-size: 15px;
+}
+#add{
+  background-color:#f7ad74;
+}
+#delete{
+  background-color:#f7ad74;
+}
