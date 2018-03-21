@@ -39,6 +39,10 @@ body{
 #add{
   background-color:#f7ad74;
 }
+#items{
+  list-style: decimal;
+}
 #delete{
   background-color:#f7ad74;
+  margin-left: 10px;
 }

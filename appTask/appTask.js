@@ -2,12 +2,14 @@ function taskManager() {
 
   $("#add").on("click", function() {
     let newTask = $("#taskInput").val();
-    $newListItem = $("<li></li>").text(newTask);
+    $newListItem = $("<li id=items></li>").text(newTask);
     let lastItem = $newListItem;
-    $("#delete").on("click", function() {
-      lastItem.remove(":last-of-type");
-    });
     $("#list").append($newListItem);
+    $delete = $("<button type=button id=delete> Delete </button>");
+    $delete.click(function() {
+    lastItem.remove(":visible");
+   });
+		$newListItem.append($delete);
   });
 }
 
