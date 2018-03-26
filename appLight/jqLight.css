@@ -1,0 +1,27 @@
+body{
+  background-color:black;
+  height:100%;
+  margin:0;
+}
+#lightSwitch{
+  background-color:pink;
+  top:50%;
+  transform: translate(-50%, -50%);
+  left:50%;
+  right:50%;
+	position:fixed;
+	height:200px;
+	width:350px;
+}
+#switcher{
+	height:200px;
+	width:175px;
+	background-color:#7dd6e0;
+	float:left;
+}
+#position{
+  text-align: center;
+  font-size: 85px;
+  font-family: fantasy;
+  float: right;
+}
