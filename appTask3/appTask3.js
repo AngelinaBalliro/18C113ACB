@@ -10,9 +10,6 @@ function config() {
       addTask(this);
     });
   }
-  else {
-    addTask("List One Item");
-  }
 
   $("#add").on("click", function() {
     let curVal = $("#taskInput").val()
@@ -44,10 +41,18 @@ function deleteTask(taskItem) {
   }
   $(taskItem).remove();
 }
+
+function deleteAll(){
+  $("#list").empty();
+localStorage.clear(myTasks);
+}
+
 function updateStorage() {
   let myTasksString = JSON.stringify(myTasks);
   localStorage.setItem(key, myTasksString);
 }
+
+
 $(function() {
   config();
 });

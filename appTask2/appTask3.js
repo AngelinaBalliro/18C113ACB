@@ -11,7 +11,7 @@ function config() {
     });
   }
   else {
-  
+
   }
 
   $("#add").on("click", function() {
@@ -44,10 +44,18 @@ function deleteTask(taskItem) {
   }
   $(taskItem).remove();
 }
+
 function updateStorage() {
   let myTasksString = JSON.stringify(myTasks);
   localStorage.setItem(key, myTasksString);
 }
+
+  $("#uberDelete").on("click", function() {
+    $("#list").remove();
+    updateStorage();
+  }
+
+
 $(function() {
   config();
 });
