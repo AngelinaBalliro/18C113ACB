@@ -11,7 +11,7 @@ function config() {
     });
   }
   else {
-    addTask("List One Item");
+  
   }
 
   $("#add").on("click", function() {
