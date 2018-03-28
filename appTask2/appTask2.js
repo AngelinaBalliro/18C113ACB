@@ -1,3 +1,4 @@
+
 function taskManager() {
 
   $("#add").on("click", function() {
@@ -12,5 +13,8 @@ function taskManager() {
 		$newListItem.append($delete);
   });
 }
+
+
+
 
 taskManager();
