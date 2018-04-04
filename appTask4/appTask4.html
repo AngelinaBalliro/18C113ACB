@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<title>Task Manager</title>
+<link href="appTask4.css" rel="StyleSheet" />
+</head>
+<body>
+<div>
+<h1 id="title">Task Manager</h1>
+<h4 id ="des"> Type a task and add it to the list by hitting the "Add Task" button. </h4>
+<h4 id = "des"> Hit the "Delete" the task will be deleted.</h4>
+</div>
+<div id="container">
+    <label>Enter a task: </label>
+    <input id="taskInput" name="taskInput" type="text" />
+    <button id="add">Add Task</button>
+<br/> </br>
+    <h3>Tasks</h3>
+  <ul id="list">
+
+  </ul>
+  <br/>
+  <button id="uberDelete" onclick="deleteAll()">Delete All</button>
+  <br/><br/><br/>
+  <button id="contact"> Contact </button>
+  <br/><br/>
+  <div id = "formContainer">
+    <form action='' method='post' id='form'>
+      <div class='form-row'>
+        <label for='full-name'>Name</label>
+        <input id='full-name' name='full-name' type='text'/>
+      </div>
+      <div class='form-row'>
+        <label for='email'>Email</label>
+        <input id='email'
+         name='email'
+         type='email'
+         placeholder='name@example.com'/>
+       </div>
+       <div class='form-row'>
+         <label for='message'>Message</label><br/>
+         <textarea id='message' name='message'></textarea>
+       </div>
+  <button id ="submit"> Submit </button>
+  </div>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="appTask4.js"></script>
+</body>
+</html>
