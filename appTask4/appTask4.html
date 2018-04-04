@@ -24,10 +24,13 @@
   <button id="contact"> Contact </button>
   <br/><br/>
   <div id = "formContainer">
-    <form action='' method='post' id='form'>
+    <form action='' method='get' id='form'>
       <div class='form-row'>
         <label for='full-name'>Name</label>
-        <input id='full-name' name='full-name' type='text'/>
+        <input id='full-name'
+        name='full-name'
+        type='text'
+        placeholder='Your Name'/>
       </div>
       <div class='form-row'>
         <label for='email'>Email</label>
@@ -38,7 +41,9 @@
        </div>
        <div class='form-row'>
          <label for='message'>Message</label><br/>
-         <textarea id='message' name='message'></textarea>
+         <textarea id='message'
+         name='message'
+         placeholder='Type your message here'></textarea>
        </div>
   <button id ="submit"> Submit </button>
   </div>
